@@ -1,0 +1,324 @@
+[
+  [
+  {
+    "scheme_id": "MH_AGRI_001",
+    "scheme_name": "PM-KISAN",
+    "category": "agriculture",
+    "short_description": "Income support scheme for small and marginal farmers.",
+    "benefit_amount": "₹6,000 per year in 3 installments",
+    "eligibility_rules": [
+      { "rule_type": "citizenship", "value": "Indian" },
+      { "rule_type": "land_ownership", "operator": ">", "value": 0, "unit": "hectare" }
+    ],
+    "documents_required": ["Aadhaar Card", "Land Records", "Bank Passbook"],
+    "application_link": "https://pmkisan.gov.in/",
+    "department": "Ministry of Agriculture",
+    "state": "Maharashtra",
+    "last_verified": "2026-02-25"
+  },
+  {
+    "scheme_id": "MH_AGRI_002",
+    "scheme_name": "PM Fasal Bima Yojana",
+    "category": "agriculture",
+    "short_description": "Crop insurance scheme for farmers against natural calamities.",
+    "benefit_amount": "Insurance coverage based on crop loss assessment",
+    "eligibility_rules": [
+      { "rule_type": "citizenship", "value": "Indian" },
+      { "rule_type": "farmer_status", "value": "Registered Farmer" }
+    ],
+    "documents_required": ["Aadhaar Card", "Land Records", "Bank Details"],
+    "application_link": "https://pmfby.gov.in/",
+    "department": "Ministry of Agriculture",
+    "state": "Maharashtra",
+    "last_verified": "2026-02-25"
+  },
+  {
+    "scheme_id": "MH_SCH_001",
+    "scheme_name": "Post Matric Scholarship",
+    "category": "scholarship",
+    "short_description": "Financial assistance for SC/ST/OBC students pursuing higher education.",
+    "benefit_amount": "Tuition fee reimbursement + maintenance allowance",
+    "eligibility_rules": [
+      { "rule_type": "income", "operator": "<=", "value": 250000, "unit": "INR/year" },
+      { "rule_type": "education_level", "value": "Post-Matric" }
+    ],
+    "documents_required": ["Caste Certificate", "Income Certificate", "Marksheet", "Aadhaar Card"],
+    "application_link": "https://mahadbt.maharashtra.gov.in/",
+    "department": "Social Justice Department",
+    "state": "Maharashtra",
+    "last_verified": "2026-02-25"
+  },
+  {
+    "scheme_id": "MH_SCH_002",
+    "scheme_name": "Rajarshi Shahu Maharaj Scholarship",
+    "category": "scholarship",
+    "short_description": "Scholarship for meritorious EBC students.",
+    "benefit_amount": "Tuition fee reimbursement",
+    "eligibility_rules": [
+      { "rule_type": "income", "operator": "<=", "value": 800000, "unit": "INR/year" },
+      { "rule_type": "education_level", "value": "Undergraduate" }
+    ],
+    "documents_required": ["Income Certificate", "Marksheet", "Aadhaar Card"],
+    "application_link": "https://mahadbt.maharashtra.gov.in/",
+    "department": "Higher Education Department",
+    "state": "Maharashtra",
+    "last_verified": "2026-02-25"
+  },
+  {
+    "scheme_id": "MH_HOUS_001",
+    "scheme_name": "PM Awas Yojana Urban",
+    "category": "housing",
+    "short_description": "Affordable housing scheme for urban poor.",
+    "benefit_amount": "Interest subsidy on housing loan",
+    "eligibility_rules": [
+      { "rule_type": "income", "operator": "<=", "value": 600000, "unit": "INR/year" },
+      { "rule_type": "residency", "value": "Urban Area" }
+    ],
+    "documents_required": ["Income Certificate", "Property Documents", "Aadhaar Card"],
+    "application_link": "https://pmaymis.gov.in/",
+    "department": "Ministry of Housing",
+    "state": "Maharashtra",
+    "last_verified": "2026-02-25"
+  },
+  {
+    "scheme_id": "MH_HOUS_002",
+    "scheme_name": "PM Awas Yojana Gramin",
+    "category": "housing",
+    "short_description": "Housing assistance for rural poor households.",
+    "benefit_amount": "Financial assistance for house construction",
+    "eligibility_rules": [
+      { "rule_type": "residency", "value": "Rural Area" },
+      { "rule_type": "income", "operator": "<=", "value": 300000, "unit": "INR/year" }
+    ],
+    "documents_required": ["Ration Card", "Income Certificate", "Aadhaar Card"],
+    "application_link": "https://pmayg.nic.in/",
+    "department": "Rural Development Department",
+    "state": "Maharashtra",
+    "last_verified": "2026-02-25"
+  },
+  {
+    "scheme_id": "MH_PEN_001",
+    "scheme_name": "Sanjay Gandhi Niradhar Yojana",
+    "category": "pension",
+    "short_description": "Financial assistance for destitute individuals.",
+    "benefit_amount": "Monthly pension support",
+    "eligibility_rules": [
+      { "rule_type": "income", "operator": "<=", "value": 21000, "unit": "INR/year" },
+      { "rule_type": "age", "operator": ">=", "value": 18, "unit": "years" }
+    ],
+    "documents_required": ["Income Certificate", "Aadhaar Card", "Bank Details"],
+    "application_link": "https://sjsa.maharashtra.gov.in/",
+    "department": "Social Justice Department",
+    "state": "Maharashtra",
+    "last_verified": "2026-02-25"
+  },
+  {
+    "scheme_id": "MH_PEN_002",
+    "scheme_name": "Indira Gandhi Old Age Pension",
+    "category": "pension",
+    "short_description": "Pension scheme for senior citizens below poverty line.",
+    "benefit_amount": "Monthly pension assistance",
+    "eligibility_rules": [
+      { "rule_type": "age", "operator": ">=", "value": 60, "unit": "years" },
+      { "rule_type": "income", "operator": "<=", "value": 100000, "unit": "INR/year" }
+    ],
+    "documents_required": ["Age Proof", "Income Certificate", "Aadhaar Card"],
+    "application_link": "https://nsap.nic.in/",
+    "department": "Ministry of Rural Development",
+    "state": "Maharashtra",
+    "last_verified": "2026-02-25"
+  },
+  {
+    "scheme_id": "MH_WOM_001",
+    "scheme_name": "Majhi Kanya Bhagyashree",
+    "category": "women",
+    "short_description": "Financial scheme promoting girl child welfare.",
+    "benefit_amount": "Financial deposit for girl child",
+    "eligibility_rules": [
+      { "rule_type": "gender", "value": "Female" },
+      { "rule_type": "income", "operator": "<=", "value": 750000, "unit": "INR/year" }
+    ],
+    "documents_required": ["Birth Certificate", "Income Certificate", "Aadhaar Card"],
+    "application_link": "https://womenchild.maharashtra.gov.in/",
+    "department": "Women and Child Development",
+    "state": "Maharashtra",
+    "last_verified": "2026-02-25"
+  },
+  {
+    "scheme_id": "MH_WOM_002",
+    "scheme_name": "Sukanya Samriddhi Yojana",
+    "category": "women",
+    "short_description": "Savings scheme for girl child.",
+    "benefit_amount": "High interest savings account",
+    "eligibility_rules": [
+      { "rule_type": "gender", "value": "Female" },
+      { "rule_type": "age", "operator": "<", "value": 10, "unit": "years" }
+    ],
+    "documents_required": ["Birth Certificate", "Aadhaar Card"],
+    "application_link": "https://www.indiapost.gov.in/",
+    "department": "Ministry of Finance",
+    "state": "Maharashtra",
+    "last_verified": "2026-02-25"
+  }
+],
+{
+  "scheme_id": "MH_DIS_001",
+  "scheme_name": "Divyang Pension Scheme",
+  "category": "disability",
+  "short_description": "Financial assistance for persons with disabilities.",
+  "benefit_amount": "Monthly pension assistance",
+  "eligibility_rules": [
+    { "rule_type": "disability_percentage", "operator": ">=", "value": 40, "unit": "%" },
+    { "rule_type": "income", "operator": "<=", "value": 100000, "unit": "INR/year" }
+  ],
+  "documents_required": ["Disability Certificate", "Income Certificate", "Aadhaar Card"],
+  "application_link": "https://sjsa.maharashtra.gov.in/",
+  "department": "Social Justice Department",
+  "state": "Maharashtra",
+  "last_verified": "2026-02-25"
+},
+{
+  "scheme_id": "MH_START_001",
+  "scheme_name": "Chief Minister Employment Generation Programme",
+  "category": "startup",
+  "short_description": "Financial assistance for self-employment and new businesses.",
+  "benefit_amount": "Subsidy on project cost",
+  "eligibility_rules": [
+    { "rule_type": "age", "operator": ">=", "value": 18, "unit": "years" },
+    { "rule_type": "residency", "value": "Maharashtra" }
+  ],
+  "documents_required": ["Project Report", "Aadhaar Card", "Residence Proof"],
+  "application_link": "https://maha-cmegp.gov.in/",
+  "department": "Industries Department",
+  "state": "Maharashtra",
+  "last_verified": "2026-02-25"
+},
+{
+  "scheme_id": "MH_START_002",
+  "scheme_name": "Startup India Seed Fund",
+  "category": "startup",
+  "short_description": "Financial support for early-stage startups.",
+  "benefit_amount": "Seed funding support",
+  "eligibility_rules": [
+    { "rule_type": "startup_registration", "value": "DPIIT Registered" },
+    { "rule_type": "company_age", "operator": "<=", "value": 2, "unit": "years" }
+  ],
+  "documents_required": ["DPIIT Certificate", "Incorporation Certificate", "Business Plan"],
+  "application_link": "https://seedfund.startupindia.gov.in/",
+  "department": "Department for Promotion of Industry and Internal Trade",
+  "state": "Maharashtra",
+  "last_verified": "2026-02-25"
+},
+{
+  "scheme_id": "MH_WEL_001",
+  "scheme_name": "Ayushman Bharat PM-JAY",
+  "category": "health",
+  "short_description": "Health insurance coverage for economically vulnerable families.",
+  "benefit_amount": "Health cover up to ₹5,00,000 per family per year",
+  "eligibility_rules": [
+    { "rule_type": "income", "operator": "<=", "value": 500000, "unit": "INR/year" },
+    { "rule_type": "citizenship", "value": "Indian" }
+  ],
+  "documents_required": ["Aadhaar Card", "Ration Card"],
+  "application_link": "https://pmjay.gov.in/",
+  "department": "Ministry of Health",
+  "state": "Maharashtra",
+  "last_verified": "2026-02-25"
+},
+{
+  "scheme_id": "MH_WEL_002",
+  "scheme_name": "National Food Security Act (Ration Card Scheme)",
+  "category": "welfare",
+  "short_description": "Subsidized food grains for eligible households.",
+  "benefit_amount": "Subsidized food grains per month",
+  "eligibility_rules": [
+    { "rule_type": "income", "operator": "<=", "value": 100000, "unit": "INR/year" },
+    { "rule_type": "residency", "value": "Maharashtra" }
+  ],
+  "documents_required": ["Ration Card", "Income Certificate", "Aadhaar Card"],
+  "application_link": "https://mahafood.gov.in/",
+  "department": "Food and Civil Supplies Department",
+  "state": "Maharashtra",
+  "last_verified": "2026-02-25"
+},
+{
+  "scheme_id": "MH_AGRI_003",
+  "scheme_name": "Soil Health Card Scheme",
+  "category": "agriculture",
+  "short_description": "Provides soil testing reports to farmers.",
+  "benefit_amount": "Free soil testing service",
+  "eligibility_rules": [
+    { "rule_type": "farmer_status", "value": "Registered Farmer" },
+    { "rule_type": "citizenship", "value": "Indian" }
+  ],
+  "documents_required": ["Aadhaar Card", "Land Records"],
+  "application_link": "https://soilhealth.dac.gov.in/",
+  "department": "Ministry of Agriculture",
+  "state": "Maharashtra",
+  "last_verified": "2026-02-25"
+},
+{
+  "scheme_id": "MH_AGRI_004",
+  "scheme_name": "Drip Irrigation Subsidy Scheme",
+  "category": "agriculture",
+  "short_description": "Subsidy for installation of drip irrigation systems.",
+  "benefit_amount": "Subsidy up to 50% of equipment cost",
+  "eligibility_rules": [
+    { "rule_type": "land_ownership", "operator": ">", "value": 0, "unit": "hectare" },
+    { "rule_type": "residency", "value": "Maharashtra" }
+  ],
+  "documents_required": ["Land Records", "Aadhaar Card", "Bank Details"],
+  "application_link": "https://krishi.maharashtra.gov.in/",
+  "department": "Agriculture Department",
+  "state": "Maharashtra",
+  "last_verified": "2026-02-25"
+},
+{
+  "scheme_id": "MH_SCH_003",
+  "scheme_name": "Minority Scholarship Scheme",
+  "category": "scholarship",
+  "short_description": "Financial aid for minority community students.",
+  "benefit_amount": "Tuition fee reimbursement",
+  "eligibility_rules": [
+    { "rule_type": "minority_status", "value": "Recognized Minority Community" },
+    { "rule_type": "income", "operator": "<=", "value": 200000, "unit": "INR/year" }
+  ],
+  "documents_required": ["Minority Certificate", "Income Certificate", "Marksheet"],
+  "application_link": "https://mahadbt.maharashtra.gov.in/",
+  "department": "Minority Development Department",
+  "state": "Maharashtra",
+  "last_verified": "2026-02-25"
+},
+{
+  "scheme_id": "MH_HOUS_003",
+  "scheme_name": "EWS Housing Scheme",
+  "category": "housing",
+  "short_description": "Affordable housing scheme for economically weaker sections.",
+  "benefit_amount": "Subsidized housing units",
+  "eligibility_rules": [
+    { "rule_type": "income", "operator": "<=", "value": 300000, "unit": "INR/year" },
+    { "rule_type": "residency", "value": "Maharashtra" }
+  ],
+  "documents_required": ["Income Certificate", "Aadhaar Card", "Residence Proof"],
+  "application_link": "https://mhada.gov.in/",
+  "department": "Housing Department",
+  "state": "Maharashtra",
+  "last_verified": "2026-02-25"
+},
+{
+  "scheme_id": "MH_WOM_003",
+  "scheme_name": "Women Self Help Group Loan Scheme",
+  "category": "women",
+  "short_description": "Loan assistance for women self-help groups.",
+  "benefit_amount": "Low-interest group loan support",
+  "eligibility_rules": [
+    { "rule_type": "gender", "value": "Female" },
+    { "rule_type": "group_membership", "value": "Registered SHG Member" }
+  ],
+  "documents_required": ["SHG Registration Certificate", "Aadhaar Card", "Bank Details"],
+  "application_link": "https://umedschemes.maharashtra.gov.in/",
+  "department": "Rural Development Department",
+  "state": "Maharashtra",
+  "last_verified": "2026-02-25"
+}
+]
