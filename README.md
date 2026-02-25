@@ -1,6 +1,6 @@
-# SchemeSense – Master Scheme Dataset
+# Government Data Intelligence Layer
 
-Prepared by: Member 4
+Prepared by: Muhammad Ameen
 
 ## Overview
 This repository contains the structured Maharashtra government scheme dataset used in the SchemeSense AI-powered welfare advisor.
